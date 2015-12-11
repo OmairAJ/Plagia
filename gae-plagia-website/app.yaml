@@ -1,0 +1,38 @@
+application: plagia
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /dbConnection.php
+  script: dbConnection.php
+
+- url: /jobCurrent.php
+  script: jobCurrent.php
+
+- url: /jobLaunch.php
+  script: jobLaunch.php
+
+- url: /jobSources.php
+  script: jobSources.php
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /img
+  static_dir: img
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /.*
+  script: 404.html
+
+skip_files:
+- ^(.*/)?\.DS_Store$
