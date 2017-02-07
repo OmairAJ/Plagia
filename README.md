@@ -1,5 +1,5 @@
 # Plagia
-A simple Plagiarism Detection System based on contextual n-grams of CoReMo with a number of simplifying variations to the approach implemented using various cloud technologies such as Google AppEngine, Amazon Web Services &amp; OpenStack.<br />
+A simple Plagiarism Detection System based on contextual n-grams of CoReMo with a number of simplifying variations to the approach implemented using various cloud technologies such as Google AppEngine &amp; Amazon Web Services.<br />
 <br />
 The system consists of three applications:<br />
 <ol>
