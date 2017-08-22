@@ -1,7 +1,7 @@
 <?php
-$host     =  ':/cloudsql/plagia-2015:plagiadb';
-$username =  'root';
-$password =  '';
+$host     =  'XXXXXXXXXXXXXXXX';
+$username =  'XXXXXXXXXXXXXXXX';
+$password =  'XXXXXXXXXXXXXXXX';
 $database =  'plagiaDB';
 
 $connection  =  mysql_connect($host, $username, $password) or die('Unable to establish connection to the database server.');
